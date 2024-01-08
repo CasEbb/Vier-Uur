@@ -1,6 +1,6 @@
 import "../css/app.scss";
 
-const VIER_UUR = new Date().setMinutes(new Date().getMinutes() + 1, -20);
+const VIER_UUR = new Date().setHours(16, 0, 0, 0);
 
 function zomgVuurwerk() {
   document.querySelector(".pyro").style.removeProperty("display");
